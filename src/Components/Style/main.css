@@ -1,0 +1,35 @@
+.main{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.main p{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.main p button, .main p input{
+    padding:0.7rem 1rem;
+    border-radius: 0.3rem;
+    background-color: rgb(164, 88, 88);
+    color: wheat;
+    font-weight: bolder;
+}
+
+.main p button{
+    background-color: red;
+    cursor: pointer;
+}
+
+.card-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    overflow-y: scroll;
+}
